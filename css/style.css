@@ -30,23 +30,16 @@
     justify-content:space-evenly;
     color: white;   
     font-weight: bold;
-    
+}   
     /*box-shadow: 5px 5px 15px 5px #000000;*/
-}
-.logo{
-    
-}
-
-
 /* -------------------MAIN----------------------- */
-
 .container{
-    height: 700px;
     max-width: 1152px;
     margin:auto;
     padding: 1rem;
     background-color: rgb(245, 231, 231);
     display: flex;
+    
     
 }
 .row{
@@ -55,6 +48,8 @@
     height: 40rem;
     max-width: 1152px;
     position: relative;
+    margin-top: 3rem;
+    margin-left: 2rem;
 }
 
 .card {
@@ -150,3 +145,28 @@ img{
 .row:hover .card{
     
 }*/
+/*---------------------FOTER----------------*/
+.down_footer{
+    height: 6rem;
+    width: 120rem;
+    background-color: rgb(35, 39, 42);
+    border-bottom: 2px solid white ;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+.text-footer{
+    color: white;
+    margin-left: 23.5rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h2{
+    font-size: small;
+    
+}
+p{
+    font-size: x-small;
+    margin-top: 0.5rem;
+    
+}
