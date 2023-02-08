@@ -31,6 +31,12 @@
     color: white;   
     font-weight: bold;
 }   
+
+.logo{
+    border: 2px solid blue;
+    width: 800px;
+    height: 70px;
+}
     /*box-shadow: 5px 5px 15px 5px #000000;*/
 /* -------------------MAIN----------------------- */
 .container{
@@ -38,9 +44,7 @@
     margin:auto;
     padding: 1rem;
     background-color: rgb(245, 231, 231);
-    display: flex;
-    
-    
+    display: flex;   
 }
 .row{
     display: flex;
