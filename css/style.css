@@ -3,27 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* -------------------HEADER----------------------- */
+#app_header{
+    height: 4rem;
+    background-color:rgb(255, 105, 0);
+}
 .flex_container{
     display: flex;
     justify-content:center;
 }
-#app_header{
-    height: 4rem;
-    background-color:orange;
-}
 
 .bar{
+    height: 2rem;
+    width: 120rem;
+    margin: 1rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content:space-evenly;
+    color: white;   
+    font-weight: bold;
     
-}
-.gender{
-    
+    /*box-shadow: 5px 5px 15px 5px #000000;*/
 }
 .logo{
+    margin-right: 20rem;
     
+}
+img{
+    width: 10rem;
+    height: 2rem;
 }
 .account{
     
 }
+
+/* -------------------MAIN----------------------- */
 /*img{
     width: 22rem;
     height: 5rem;
