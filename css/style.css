@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex_container{
+    display: flex;
+    justify-content:center;
+}
+#app_header{
+    height: 4rem;
+    background-color:orange;
+}
+
+.bar{
+    
+}
+.gender{
+    
+}
+.logo{
+    
+}
+.account{
+    
+}
+/*img{
+    width: 22rem;
+    height: 5rem;
+    
+    
+}*/
+/*
+.banner{
+    padding: 3rem;
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+}
+.banner:hover{
+    cursor: ponter;
+    background-color: black;
+}
+.banner:hover h1{
+    color:yellow;
+
+}
+.banner:hover> h1{
+    color:yellow;
+
+}*/
