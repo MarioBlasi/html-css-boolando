@@ -41,9 +41,12 @@
 /* -------------------MAIN----------------------- */
 
 .container{
-    width: 66%;
+    height:  1440px;
     max-width: 1152px;
     margin:auto;
+    padding: 1rem;
+    background-color: rgb(245, 231, 231);
+    display: flex;
     
 }
 .row{
@@ -54,7 +57,7 @@
     position: relative;
 }
 
-.card{
+.card {
     width: 20rem;
     height: 35rem;
     margin-right: 10rem;
@@ -101,7 +104,7 @@
     top: 35rem;
     right: 2rem;
 }
- /* */
+ 
 p{
     font-size: small;
 }
@@ -131,6 +134,11 @@ img{
     height: 35rem;
     position: absolute;
     bottom: 0rem
+}
+
+.row-two{
+    position: relative;
+    
 }
 /*
 .row:hover{
