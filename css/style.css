@@ -48,7 +48,6 @@
 }
 .row{
     display: flex;
-    border: 3px solid red;
     width: 100%;
     height: 40rem;
     max-width: 1152px;
@@ -58,7 +57,6 @@
 .card{
     width: 20rem;
     height: 35rem;
-    border: 3px solid blue;
     margin-right: 10rem;
     position: absolute;
     top: 75px;
@@ -66,34 +64,44 @@
 }
 .discount{
     position: absolute;
-    
-    left: 0;
-    border: 3px solid rgb(103, 209, 42);
+    left:0;
+    background-color: red;
     width: 4rem;
     height: 2rem;
     bottom:1.5rem;
+    color: white;
+    font-weight: bold;
 }
 .discount-two{
     position: absolute;
     left: 4rem;
-    border: 3px solid rgb(37, 2, 24);
-    width: 6rem;
+    background-color: green;
+    width: 7rem;
     height: 2rem;
-    top:-2px;
+    top:0px;
 }
 
 
 .text{
     position: absolute;
-    
-   /* display: none;*/
-   border: 3px solid rgb(255, 0, 170);
-    width: 12rem;
+    width: 18rem;
     height: 3.5rem;
     top: 35rem;
-    right: 8rem;
-    
+    right: 2rem;
 }
+ /* display: none;*/
+p{
+    font-size: small;
+}
+h4{
+    font-weight:bolder;
+    font-size: smaller;
+}
+h5{
+    font-size: x-small;
+    color: red;
+}
+
 
 .heart{
     position: absolute;
@@ -106,7 +114,6 @@
 img{
     width:20rem;
     margin-top: 8rem;
-    
     width: 20rem;
     height: 35rem;
     position: absolute;
@@ -117,7 +124,7 @@ img{
 
 .row:hover{
     cursor: pointer;
-   
+    
     width: 5rem;
     height: 5rem;
     
